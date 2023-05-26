@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo sobre tabelas</title>
+</head>
+<body>
+    <section id="students">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Matrícula</th>
+                </tr>
+            </thead>                
+            <tbody>
+                <tr>
+                    <td>Thamyres Araújo</td>
+                    <td>tamylindona@meusonho.com</td>
+                    <td>10000</td>
+                </tr>
+                <tr>
+                    <td>Augusta Senna</td>
+                    <td>meuirmao220@gmail.com</td>
+                    <td>12333</td>
+                </tr>
+                <tr>
+                    <td>Boris Amigo</td>
+                    <td>redebrasil@teletambi.com</td>
+                    <td>4577</td>
+                </tr>
+            </tbody>
+        </table> 
+    </section>
+    <section id="finances">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Descriçao</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>11/02/2010</td>
+                    <td>Despesa</td>
+                    <td>Almoço</td>
+                    <td>R$ 21,90</td>
+                </tr>
+                <tr>
+                    <td>05/07/2001</td>
+                    <td>Receita</td>
+                    <td>Salário</td>
+                    <td>R$ 1.500,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="finances2">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Descriçao</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">11/02/2010</td>
+                    <td>Despesa</td>
+                    <td>Almoço</td>
+                    <td>R$ 21,90</td>
+                </tr>
+                <tr>
+                    <td>Receita</td>
+                    <td>Salário</td>
+                    <td>R$ 1.500,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="finances3">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Descriçao</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">11/02/2010</td>
+                    <td colspan="2">Despesa</td>
+                    <td>R$ 21,90</td>
+                </tr>
+                <tr>
+                    <td>Receita</td>
+                    <td>Salário</td>
+                    <td>R$ 1.500,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>     
+</body>
+</html>

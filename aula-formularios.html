@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <form>
+            <div>
+                <label for="texto">Nome:</label>    
+                <input type="text" id="texto" placeholder="Informe seu nome..." name="nome">  
+            </div>
+            <div>
+                <label for="pass">Senha:</label>
+                <input type="password" name="pass">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label for="data">Data:</label>
+                <input type="date" name="data">
+            </div>
+            <div>
+                <label for="num">Número:</label>
+                <input type="number" name="num">
+            </div>
+            <div>
+                <label for="hora">Hora:</label>
+                <input type="time" name="hora">
+            </div>
+            <div>
+                <label for="arquivo">Arquivo:</label>
+                <input type="file" name="arquivo">
+            </div>
+            <div>
+                <label for="url">Url:</label>
+                <input type="url" name="url">
+            </div>
+            <div>
+                <label for="cor">Cor:</label>
+                <input type="color" name="cor">
+            </div>
+            <div>
+                <label for="barra">Barra:</label>
+                <input type="range" name="barra">
+            </div>
+            <div>
+                <label for="check">check:</label>
+                <input type="checkbox" name="check">
+            </div>
+            <div>
+                <label for="escolha">Escolha:</label>
+                <input type="radio" name="escolha">
+            </div>
+            <div>
+                <label for="limpar">Limpar:</label>
+                <input type="reset" name="limpar" value="Limpar">
+            </div>
+            <div>
+                <label for="enviar">Enviar:</label>
+                <input type="submit" name="enviar" value="Enviar">
+            </div>
+            <br>
+            <div>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferencia</option>
+                </select>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
