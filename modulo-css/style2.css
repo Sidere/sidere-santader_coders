@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    color: navy; 
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: orange;
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.bg {
+    height: 400px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    background-image: url(https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
