@@ -1,0 +1,53 @@
+h1 {
+    color: black; 
+    font-size: 60px;
+    font-weight: 900;
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    background-color: #ecbd00;
+    display: grid;
+}
+.input-group {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.page-content h1 {
+    font-size: 5.6rem;
+}
+
+.page-content h1 p + p {
+    color: #ecbd00;
+}
+
+.page-content {
+    height: 100vh;
+    display: grid;
+}
+main {
+    grid-area: title;
+}
+
+aside {
+    grid-area: login;
+}
+footer {
+    grid-area: footer;
+}
+
+@media screen and (min-width: 1024px) {
+    .page-content {
+        grid-template-areas: 
+            ". . ."
+            "title title login"
+            "title title login"
+            ". . login"    
+            "footer footer footer"
+        
+        ;
+
+    }
+}
+
